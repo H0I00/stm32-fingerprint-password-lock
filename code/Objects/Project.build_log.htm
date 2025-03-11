@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A 1247430028@qq.com, A, LIC=YA39H-WI9K7-566Q2-9BGBE-LP21B-I1ZEU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\BaiduNetdiskDownload\指纹解锁（试验版本）4.0（基本功能实现)\Project.uvprojx
+Project File Date:  06/28/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling 24cxx.c...
+"no source": Error:  #5: cannot open source input file "Hardware\24cxx.c": No such file or directory
+Hardware\24cxx.c: 0 warnings, 1 error
+compiling myiic.c...
+"no source": Error:  #5: cannot open source input file "Hardware\myiic.c": No such file or directory
+Hardware\myiic.c: 0 warnings, 1 error
+compiling main.c...
+.\Hardware\lock.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+User\main.c(30): warning:  #1295-D: Deprecated declaration starting - give arg types
+  int starting();
+User\main.c(32): warning:  #1295-D: Deprecated declaration Set_password - give arg types
+  int Set_password();
+User\main.c(82): warning:  #223-D: function "press_FR" declared implicitly
+  							Error=press_FR();//刷指纹
+User\main.c(99): warning:  #223-D: function "password" declared implicitly
+  							Error=password();//密码解锁函数
+User\main.c(45): warning:  #177-D: variable "arrow"  was declared but never referenced
+  	char arrow=0;  //箭头位子
+User\main.c(47): warning:  #177-D: variable "AS608Para"  was declared but never referenced
+  	SysPara AS608Para;					//指纹模块AS608参数
+User\main.c(48): warning:  #177-D: variable "ValidN"  was declared but never referenced
+  	u16 ValidN;									//模块内有效指纹个数
+User\main.c(49): warning:  #177-D: variable "kbd_tbl"  was declared but never referenced
+  	u8** kbd_tbl;
+User\main.c(120): warning:  #177-D: label "MENUNOCLR"  was declared but never referenced
+  MENUNOCLR:
+User\main.c(280): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+                  if (satus == 0) OLED_ShowString(15, 1, hidepwd);
+User\main.c(281): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+                  else OLED_ShowString(20, 1, hidepwd);
+User\main.c(675): warning:  #940-D: missing return statement at end of non-void function "starting" 
+  }
+User\main.c(622): warning:  #177-D: variable "key"  was declared but never referenced
+  	u8 key;
+User\main.c(768): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+                  if (status == 0) OLED_ShowString(15, 1, hidepwd);
+User\main.c(769): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+                  else OLED_ShowString(20, 1, hidepwd);
+User\main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=12024 RO-data=1848 RW-data=4552 ZI-data=2648  
+".\Objects\Project.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
