@@ -1,0 +1,2 @@
+# stm32-fingerprint-password-lock
+基于stm32f103c8t6实现的带虚位密码及指纹解锁功能的密码锁
