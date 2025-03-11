@@ -1,0 +1,182 @@
+{
+  "path": "Offline/%E5%A4%87%E4%BB%BD",
+  "foldername": "备份",
+  "name": "备份",
+  "title": "备份",
+  "uuid": "e37fc14b2bb4678fe348e0e3b85e027f",
+  "created_at": "2024-10-12 22:19:06",
+  "updated_at": "2025-03-11 13:02:47",
+  "documents": [
+    {
+      "uuid": "1ba2eab0f00034e16696a89c45248702",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1741669343,
+      "createTime": 1719672562,
+      "histories": [],
+      "created_at": "2024-06-29 22:49:22",
+      "updated_at": "2025-03-11 13:02:23",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0805",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0.96OLED_4P_MODULE_JX",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004566"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0805",
+          "R1,R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "STM32F103C8T6-CARD",
+          1,
+          "CONN-TH_L53.3-W22.9_STM32F103C8T6-CARD",
+          "U1",
+          {
+            "Manufacturer Part": "STM32F103C8T6-Card",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900077949"
+          }
+        ],
+        [
+          "AS608",
+          1,
+          "AS608模块",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "lengyuefeng",
+            "Supplier": "lengyuefeng",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "AT24C02N-10SU-2.7",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "AT24C02N-10SU-2.7",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2929937"
+          }
+        ],
+        [
+          "矩阵按键1",
+          1,
+          "HDR-TH_8P-P2.54-V-F",
+          "U4",
+          {
+            "Manufacturer Part": "KH-2.54FH-1X8P-H8.5",
+            "Manufacturer": "kinghelm(金航标)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2905417"
+          }
+        ],
+        [
+          "SG90",
+          1,
+          "SG90",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "有源蜂鸣器模块",
+          1,
+          "有源蜂鸣器模块",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "Rysim",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "components": {
+        "2e678a7d15ad4f60bc7be6dfcbfd2084": 1,
+        "43c3ab547d1f439791c54ad91859b37e": 1,
+        "9b69540742434a87b3afddb8890c193d": 1,
+        "b2a0b134445b41328388200a6421b674": 1,
+        "b7355b94e44c475095e58c29636fcef2": 1,
+        "a6f246a054fe434ca35c636510414d27": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "9698a5ebc38f435fb5a5f9ff5b84927c": 2,
+        "9bd26a83d45d4ac38cac4adf8aca6815": 1
+      }
+    },
+    {
+      "uuid": "559056e6d81d185ccc31cbddf52594b9",
+      "title": "NEW_PCB",
+      "filename": "NEW_PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1741669367,
+      "createTime": 1716019308,
+      "histories": [],
+      "created_at": "2024-05-18 16:01:48",
+      "updated_at": "2025-03-11 13:02:47",
+      "components": {
+        "5b147c9d781e4d9d8a6e7409681e53ee": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 1,
+        "88b7b62f56d14ce0a65d98c420c09d52": 1,
+        "77534d8154e848a1a01d4c9c3c95520e": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "cdcb1b9615ec4bfaa20f5cd0542b732d": 1,
+        "b716fa3700784db29b7ad404bc6e6844": 1,
+        "671140bbc3b244a0bd191ffed474ac79": 1
+      }
+    }
+  ],
+  "content": "",
+  "stick": "",
+  "sort": [],
+  "schfilename": "课程设计.json",
+  "schfilemtime": 1741669343337
+}
